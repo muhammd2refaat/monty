@@ -3,15 +3,15 @@
 /**
  * addNodeToStack - Adds a node to the stack.
  * Return: None.
- * --------------------------
+ * *********************************
  * Prototype: void addNodeToStack(stack_t **head, int ValueToBeAdded);
- * --------------------------
+ * *********************************
  * @head: Pointer to the top of the stack.
  * @ValueToBeAdded: Value to be added to the new node.
- * --------------------------
+ * *********************************
  * Description: Allocates memory for a new node,
  * sets its value, and adds it to the top of the stack.
- * --------------------------
+ * *********************************
  *-
  */
 

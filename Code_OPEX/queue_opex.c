@@ -1,20 +1,20 @@
 #include "../monty.h"
 
 /**
- * queue_opex - Handles the "queue" opex.
+ * queue_OPEX - Handles the "queue" OPEX.
  * Return: None.
- * --------------------------
- * Prototype: void queue_opex(stack_t **head, unsigned int counter);
- * --------------------------
+ * *********************************
+ * Prototype: void queue_OPEX(stack_t **head, unsigned int counter);
+ * *********************************
  * @head: Pointer to the top of the stack.
  * @theNumberOfTheLine: Current line number in the script file.
- * --------------------------
+ * *********************************
  * Description: Adds a node to the queue.
- * --------------------------
+ * *********************************
  *-
  */
 
-void queue_opex(stack_t **head, unsigned int theNumberOfTheLine)
+void queue_OPEX(stack_t **head, unsigned int theNumberOfTheLine)
 {
 	/* Cast the head pointer to void to suppress unused variable warning */
 	(void)head;

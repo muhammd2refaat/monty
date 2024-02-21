@@ -1,23 +1,23 @@
 #include "../monty.h"
 
 /**
- * sub_opex - Handles the "sub" opex.
+ * sub_OPEX - Handles the "sub" OPEX.
  * Return: None.
- * --------------------------
- * Prototype: void sub_opex(stack_t **head, unsigned int counter);
- * --------------------------
+ * *********************************
+ * Prototype: void sub_OPEX(stack_t **head, unsigned int counter);
+ * *********************************
  * @head: Pointer to the top of the stack.
  * @theNumberOfTheLine: Current line number in the script file.
- * --------------------------
+ * *********************************
  * Description: Checks if the argument after "sub"
  * is a valid integer.
  * If not, prints an error message and exits.
  * Subtracts the integer from the stack or queue.
- * --------------------------
+ * *********************************
  *-
  */
 
-void sub_opex(stack_t **head, unsigned int theNumberOfTheLine)
+void sub_OPEX(stack_t **head, unsigned int theNumberOfTheLine)
 {
 	/* Declare a character array to hold the error message */
 	char errorMessage[50];
@@ -45,5 +45,5 @@ void sub_opex(stack_t **head, unsigned int theNumberOfTheLine)
 	/* Subtract the top element value from the second element value */
 	temporaryPointer->n -= (*head)->n;
 	/* Remove the top element of the stack after the subtraction */
-	pop_opex(head, theNumberOfTheLine);
+	pop_OPEX(head, theNumberOfTheLine);
 }

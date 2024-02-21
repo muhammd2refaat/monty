@@ -1,23 +1,23 @@
 #include "../monty.h"
 
 /**
- * add_opex - Handles the "add" opex.
+ * add_OPEX - Handles the "add" OPEX.
  * Return: None.
- * --------------------------
- * Prototype: void add_opex(stack_t **head, unsigned int counter);
- * --------------------------
+ * *********************************
+ * Prototype: void add_OPEX(stack_t **head, unsigned int counter);
+ * *********************************
  * @head: Pointer to the top of the stack.
  * @theNumberOfTheLine: Current line number in the script file.
- * --------------------------
+ * *********************************
  * Description: Checks if the argument after "add"
  * is a valid integer.
  * If not, prints an error message and exits.
  * Adds the integer to the stack or queue.
- * --------------------------
+ * *********************************
  *-
  */
 
-void add_opex(stack_t **head, unsigned int theNumberOfTheLine)
+void add_OPEX(stack_t **head, unsigned int theNumberOfTheLine)
 {
 	/* Declare a temporary pointer */
 	stack_t *temporaryPointer;

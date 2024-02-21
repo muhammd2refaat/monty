@@ -1,26 +1,26 @@
 #include "../monty.h"
 
 /**
- * push_opex - Handles the "push" opex.
+ * push_OPEX - Handles the "push" OPEX.
  * Return: None.
- * --------------------------
+ * *********************************
  * Prototype: void f_push(stack_t **head, unsigned int counter);
- * --------------------------
+ * *********************************
  * @head: Pointer to the top of the stack.
  * @theNumberOfTheLine: Current line number in the script file.
- * --------------------------
+ * *********************************
  * Description: Checks if the argument after "push"
  * is a valid integer.
  * If not, prints an error message and exits.
  * Adds the integer to the stack or queue.
- * --------------------------
+ * *********************************
  *-
  */
 
 
 
-void push_opex(stack_t **head, unsigned int theNumberOfTheLine)
-{	/* Declare variables for handling the push opex */
+void push_OPEX(stack_t **head, unsigned int theNumberOfTheLine)
+{	/* Declare variables for handling the push OPEX */
 	Integer theValueToBePushed, characterIndex = 0, theMode = 0;
 	/* Check if an argument is provided after "push" */
 	if (montyExecutionContext.theArgument)

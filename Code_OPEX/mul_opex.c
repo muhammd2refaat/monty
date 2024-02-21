@@ -1,23 +1,23 @@
 #include "../monty.h"
 
 /**
- * mul_opex - Handles the "mul" opex.
+ * mul_OPEX - Handles the "mul" OPEX.
  * Return: None.
- * --------------------------
- * Prototype: void mul_opex(stack_t **head, unsigned int counter);
- * --------------------------
+ * *********************************
+ * Prototype: void mul_OPEX(stack_t **head, unsigned int counter);
+ * *********************************
  * @head: Pointer to the top of the stack.
  * @theNumberOfTheLine: Current line number in the script file.
- * --------------------------
+ * *********************************
  * Description: Checks if the argument after "mul"
  * is a valid integer.
  * If not, prints an error message and exits.
  * Multiplies the integer from the stack or queue.
- * --------------------------
+ * *********************************
  *-
  */
 
-void mul_opex(stack_t **head, unsigned int theNumberOfTheLine)
+void mul_OPEX(stack_t **head, unsigned int theNumberOfTheLine)
 {
 	/* Pointer to temporarily hold the top of the stack */
 	stack_t *temporaryPointer;

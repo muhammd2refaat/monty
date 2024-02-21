@@ -1,23 +1,23 @@
 #include "../monty.h"
 
 /**
- * div_opex - Handles the "div" opex.
+ * div_OPEX - Handles the "div" OPEX.
  * Return: None.
- * --------------------------
- * Prototype: void div_opex(stack_t **head, unsigned int counter);
- * --------------------------
+ * *********************************
+ * Prototype: void div_OPEX(stack_t **head, unsigned int counter);
+ * *********************************
  * @head: Pointer to the top of the stack.
  * @theNumberOfTheLine: Current line number in the script file.
- * --------------------------
+ * *********************************
  * Description: Checks if the argument after "div"
  * is a valid integer.
  * If not, prints an error message and exits.
  * Divides the integer from the stack or queue.
- * --------------------------
+ * *********************************
  *-
  */
 
-void div_opex(stack_t **head, unsigned int theNumberOfTheLine)
+void div_OPEX(stack_t **head, unsigned int theNumberOfTheLine)
 {
 	/* Declare a temporary pointer */
 	stack_t *temporaryPointer;

@@ -4,11 +4,11 @@
  * release_stack - Frees the memory allocated to the stack
  * and its nodes.
  * Return: None.
- * --------------------------
+ * *********************************
  * Prototype: void release_stack(stack_t *top);
- * --------------------------
+ * *********************************
  * @top: Pointer to the top of the stack.
- * --------------------------
+ * *********************************
  *-
 */
 

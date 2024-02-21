@@ -1,21 +1,21 @@
 #include "../monty.h"
 
 /**
- * pint_opex - Handles the "pint" opex.
+ * pint_OPEX - Handles the "pint" OPEX.
  * Return: None.
- * --------------------------
- * Prototype: void pint_opex(stack_t **head, unsigned int counter);
- * --------------------------
+ * *********************************
+ * Prototype: void pint_OPEX(stack_t **head, unsigned int counter);
+ * *********************************
  * @head: Pointer to the top of the stack.
  * @theNumberOfTheLine: Current line number in the script file.
- * --------------------------
+ * *********************************
  * Description: Prints the value at the top of the stack.
  * If the stack is empty, prints an error message and exits.
- * --------------------------
+ * *********************************
  *-
  */
 
-void pint_opex(stack_t **head, unsigned int theNumberOfTheLine)
+void pint_OPEX(stack_t **head, unsigned int theNumberOfTheLine)
 {
 	/* Declare a character array to hold the error message */
 	char error_message[100];

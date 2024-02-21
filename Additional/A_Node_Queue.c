@@ -3,15 +3,15 @@
 /**
  * AddNodeToQueue - Adds a node to the queue.
  * Return: None.
- * --------------------------
+ * *********************************
  * Prototype: void AddNodeToQueue(stack_t **head, int n);
- * --------------------------
+ * *********************************
  * @head: Pointer to the top of the stack.
  * @ValueToBeAdded: Value to be added to the queue.
- * --------------------------
+ * *********************************
  * Description: Allocates memory for a new node,
  * sets its value, and adds it to the end of the queue.
- * --------------------------
+ * *********************************
  *-
  */
 

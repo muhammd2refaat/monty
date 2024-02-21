@@ -8,16 +8,16 @@ MontyContext_t montyExecutionContext = {NULL, NULL, NULL, 0};
 /**
  * main - Entry point of the Monty interpreter
  * Return: Always 0 (Success)
- * --------------------------
+ * *********************************
  * Prototype: Integer main(Integer argumentCounter,
  * StringArray argumentVector);
- * --------------------------
+ * *********************************
  * @argumentCounter: Number of command-line arguments.
  * @argumentVector: Array of command-line argument strings.
- * --------------------------
+ * *********************************
  * Description: Opens and reads a Monty script file, line by line,
- * executing the corresponding opexs using a stack.
- * --------------------------
+ * executing the corresponding OPEXs using a stack.
+ * *********************************
  *-
  */
 

@@ -1,20 +1,20 @@
 #include "../monty.h"
 
 /**
- * rotr_opex - Handles the "rotr" opex.
+ * rotr_OPEX - Handles the "rotr" OPEX.
  * Return: None.
- * --------------------------
- * Prototype: void rotr_opex(stack_t **head, unsigned int counter);
- * --------------------------
+ * *********************************
+ * Prototype: void rotr_OPEX(stack_t **head, unsigned int counter);
+ * *********************************
  * @head: Pointer to the top of the stack.
  * @theNumberOfTheLine: Current line number in the script file.
- * --------------------------
+ * *********************************
  * Description: Rotates the stack to the right.
- * --------------------------
+ * *********************************
  *-
  */
 
-void rotr_opex(stack_t **head, unsigned int theNumberOfTheLine)
+void rotr_OPEX(stack_t **head, unsigned int theNumberOfTheLine)
 {
 	/* Declare a temporary pointer */
 	stack_t *temporaryPointer = NULL;

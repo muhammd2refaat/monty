@@ -1,21 +1,21 @@
 #include "../monty.h"
 
 /**
- * pchar_opex - Handles the "pchar" opex.
+ * pchar_OPEX - Handles the "pchar" OPEX.
  * Return: None.
- * --------------------------
- * Prototype: void pchar_opex(stack_t **head, unsigned int counter);
- * --------------------------
+ * *********************************
+ * Prototype: void pchar_OPEX(stack_t **head, unsigned int counter);
+ * *********************************
  * @head: Pointer to the top of the stack.
  * @theNumberOfTheLine: Current line number in the script file.
- * --------------------------
+ * *********************************
  * Description: Prints the character at the top of the stack.
  * If the stack is empty, prints an error message and exits.
- * --------------------------
+ * *********************************
  *-
  */
 
-void pchar_opex(stack_t **head, unsigned int theNumberOfTheLine)
+void pchar_OPEX(stack_t **head, unsigned int theNumberOfTheLine)
 {
 	/* Buffer for error messages */
 	char error_message[100];

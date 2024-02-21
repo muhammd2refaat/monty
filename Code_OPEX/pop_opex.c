@@ -1,21 +1,21 @@
 #include "../monty.h"
 
 /**
- * pop_opex - Handles the "pop" opex.
+ * pop_OPEX - Handles the "pop" OPEX.
  * Return: None.
- * --------------------------
+ * *********************************
  * Prototype: void f_pop(stack_t **head, unsigned int counter);
- * --------------------------
+ * *********************************
  * @head: Pointer to the top of the stack.
  * @theNumberOfTheLine: Current line number in the script file.
- * --------------------------
+ * *********************************
  * Description: Removes the top element from the stack.
  * If the stack is empty, prints an error message and exits.
- * --------------------------
+ * *********************************
  *-
  */
 
-void pop_opex(stack_t **head, unsigned int theNumberOfTheLine)
+void pop_OPEX(stack_t **head, unsigned int theNumberOfTheLine)
 {
 	/* Declare a character array to hold the error message */
 	char errorMessage[100];

@@ -1,20 +1,20 @@
 #include "../monty.h"
 
 /**
- * pall_opex - Handles the "pall" opex.
+ * pall_OPEX - Handles the "pall" OPEX.
  * Return: None.
- * --------------------------
+ * *********************************
  * Prototype: void f_pall(stack_t **head, unsigned int counter);
- * --------------------------
+ * *********************************
  * @head: Pointer to the top of the stack.
  * @theNumberOfTheLine: Current line number in the script file.
- * --------------------------
+ * *********************************
  * Description: prints all elements in the stack.
- * --------------------------
+ * *********************************
  *-
  */
 
-void pall_opex(stack_t **head, unsigned int theNumberOfTheLine)
+void pall_OPEX(stack_t **head, unsigned int theNumberOfTheLine)
 {
 	/* Traverse the stack and write each element to standard output */
 	/* char buffer[12]; */

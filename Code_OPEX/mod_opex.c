@@ -1,25 +1,25 @@
 #include "../monty.h"
 
 /**
- * mod_opex - Handles the "mod" opex.
+ * mod_OPEX - Handles the "mod" OPEX.
  * Return: None.
- * --------------------------
- * Prototype: void mod_opex(stack_t **head, unsigned int counter);
- * --------------------------
+ * *********************************
+ * Prototype: void mod_OPEX(stack_t **head, unsigned int counter);
+ * *********************************
  * @head: Pointer to the top of the stack.
  * @theNumberOfTheLine: Current line number in the script file.
- * --------------------------
+ * *********************************
  * Description: Checks if the argument after "mod"
  * is a valid integer.
  * If not, prints an error message and exits.
  * Modulos the integer from the stack or queue.
- * --------------------------
+ * *********************************
  *-
  */
 
-void mod_opex(stack_t **head, unsigned int theNumberOfTheLine)
+void mod_OPEX(stack_t **head, unsigned int theNumberOfTheLine)
 {
-	int result;				/* Variable to hold the result of the modulo opex */
+	int result;				/* Variable to hold the result of the modulo OPEX */
 	stack_t *temporaryPointer;	/* Temporary pointer for stack manipulation */
 	char errorMessage[50];		/* Array to hold error messages */
 	/* Check if the stack does not have at least two elements */
@@ -42,7 +42,7 @@ void mod_opex(stack_t **head, unsigned int theNumberOfTheLine)
 		/* Exit program with a failure status */
 		exit(EXIT_FAILURE);
 	}
-	/* Perform the modulo opex using the top */
+	/* Perform the modulo OPEX using the top */
 	/* two elements and store the result */
 	result = ((*head)->next->n) % ((*head)->n);
 	/* Update the second element from the top with the result */

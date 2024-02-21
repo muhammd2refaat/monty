@@ -1,21 +1,21 @@
 #include "../monty.h"
 
 /**
- * rotl_opex - Handles the "rotl" opex.
+ * rotl_OPEX - Handles the "rotl" OPEX.
  * Return: None.
- * --------------------------
- * Prototype: void rotl_opex(stack_t **head, unsigned int counter);
- * --------------------------
+ * *********************************
+ * Prototype: void rotl_OPEX(stack_t **head, unsigned int counter);
+ * *********************************
  * @head: Pointer to the top of the stack.
  * @theNumberOfTheLine: Current line number in the script file.
- * --------------------------
+ * *********************************
  * Description: Rotates the stack to the left.
  * If the stack is empty, prints an error message and exits.
- * --------------------------
+ * *********************************
  *-
  */
 
-void rotl_opex(stack_t **head, unsigned int theNumberOfTheLine)
+void rotl_OPEX(stack_t **head, unsigned int theNumberOfTheLine)
 {
 	stack_t *theFirst = NULL;
 	stack_t *theLast = NULL;
