@@ -48,7 +48,7 @@ typedef struct stack_s
 
 /**
  * struct instruction_s - opcode and its function
- * @codeOpex: the opcode
+ * @codeOPEX: the opcode
  * @f: function to handle the opcode
  *
  * Description: opcode and its function
@@ -56,7 +56,7 @@ typedef struct stack_s
  */
 typedef struct instruction_s
 {
-	char *codeOpex;
+	char *codeOPEX;
 	void (*f)(stack_t **stack, unsigned int line_number);
 } instruction_t;
 
@@ -85,23 +85,23 @@ int select_Function(
 
 void release_stack(stack_t *top);
 void addNodeToStack(stack_t **head, int ValueToBeAdded);
-void push_opex(stack_t **head, unsigned int theNumberOfTheLine);
-void pall_opex(stack_t **head, unsigned int theNumberOfTheLine);
+void push_OPEX(stack_t **head, unsigned int theNumberOfTheLine);
+void pall_OPEX(stack_t **head, unsigned int theNumberOfTheLine);
 void AddNodeToQueue(stack_t **head, int ValueToBeAdded);
-void pint_opex(stack_t **head, unsigned int counter);
-void pop_opex(stack_t **head, unsigned int theNumberOfTheLine);
-void swap_opex(stack_t **head, unsigned int theNumberOfTheLine);
-void add_opex(stack_t **head, unsigned int theNumberOfTheLine);
-void nop_opex(stack_t **head, unsigned int theNumberOfTheLine);
-void sub_opex(stack_t **head, unsigned int theNumberOfTheLine);
-void div_opex(stack_t **head, unsigned int theNumberOfTheLine);
-void mul_opex(stack_t **head, unsigned int theNumberOfTheLine);
-void mod_opex(stack_t **head, unsigned int theNumberOfTheLine);
-void pchar_opex(stack_t **head, unsigned int theNumberOfTheLine);
-void pstr_opex(stack_t **head, unsigned int theNumberOfTheLine);
-void rotl_opex(stack_t **head, unsigned int theNumberOfTheLine);
-void rotr_opex(stack_t **head, unsigned int theNumberOfTheLine);
-void queue_opex(stack_t **head, unsigned int theNumberOfTheLine);
-void stack_opex(stack_t **head, unsigned int theNumberOfTheLine);
+void pint_OPEX(stack_t **head, unsigned int counter);
+void pop_OPEX(stack_t **head, unsigned int theNumberOfTheLine);
+void swap_OPEX(stack_t **head, unsigned int theNumberOfTheLine);
+void add_OPEX(stack_t **head, unsigned int theNumberOfTheLine);
+void nop_OPEX(stack_t **head, unsigned int theNumberOfTheLine);
+void sub_OPEX(stack_t **head, unsigned int theNumberOfTheLine);
+void div_OPEX(stack_t **head, unsigned int theNumberOfTheLine);
+void mul_OPEX(stack_t **head, unsigned int theNumberOfTheLine);
+void mod_OPEX(stack_t **head, unsigned int theNumberOfTheLine);
+void pchar_OPEX(stack_t **head, unsigned int theNumberOfTheLine);
+void pstr_OPEX(stack_t **head, unsigned int theNumberOfTheLine);
+void rotl_OPEX(stack_t **head, unsigned int theNumberOfTheLine);
+void rotr_OPEX(stack_t **head, unsigned int theNumberOfTheLine);
+void queue_OPEX(stack_t **head, unsigned int theNumberOfTheLine);
+void stack_OPEX(stack_t **head, unsigned int theNumberOfTheLine);
 
 #endif
